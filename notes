@@ -1,0 +1,29 @@
+possible scenario with 6 orgs
+
+org1 shipper of crude oil
+org2 owns refinary and refinary storage
+org3 teloneio
+org4 shipper from refinary
+org5 & org6 are fueling stations  (e.g. Shell , EKO)
+
+
+
+org1 shipper of crude oil
+teleneio is out accoording to efraimidis.
+org2 owns refinary and storage and makes a tx when transforming from crude oil.
+org3 are the tracks that transport to fuel stations : Important make a Delivery Plan 
+org4 may be like org3
+org5 & org6 fueling stations
+
+Note: Each org has an account! org2 pays to org1 and org5/6 pays to org3/4 and org2.
+
+Q:why Delivery Plan?
+
+A: because we can manage better the timings of each delivery and punish delays of couriers. Of course we should check manualy if we got the right
+amount.But, We can check if the delivery plan agrees with the fuel actually transfered(courier has no excuses like "i thought i should deliver you 10 litres instead of 15".). Thats kind of fraud detection. Plus, we can check quality of fuel to check if its the same with the one org2 produced . thats kind of fraud detection too.
+
+for example, the courier has 20l and want to deliver 10l at r1 and 10 at r2.Between r1 and r2 is r3 that wants 2l too but courier cant afford delivering all these 
+litres he has only 20. Then he lies to r1 that he thought he should deliver to him only 8l and apparently delivers to r3 the 2l extra. 
+With blockchain r1 can catch this fraud because he will check the delivery plan. And what if the Delivery plan was fraudy?
+A: There is not this possibility because delivery plan will be checked against the added Assets of org2 (org2 puts how many litres each retailer will have).
+Thats what blockchain can do! But remember, we should check that delivery plan MATCHES addedAssets or org2 (refinary).
